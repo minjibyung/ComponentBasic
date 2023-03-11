@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ComponentBasic</string>
+    <string name="titulo">Componentes Basicos</string>
+    <string name="componentes_basicos">Componentes Basicos</string>
+    <string name="checkbox_1">CheckBox 1</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="activo">Activo</string>
+    <string name="inactivo">Inactivo</string>
+    <string name="tooglebutton_on">ToogleButton On</string>
+    <string name="switch_on">Switch</string>
+    <string name="switch_off">Switch Off</string>
+    <string name="option">Option</string>
+    <string name="image_button">Image Button</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="presioname">Presioname</string>
+    <string name="opcion_1">Opcion 1</string>
+    <string name="opcion_2">Opcion 2</string>
+</resources>

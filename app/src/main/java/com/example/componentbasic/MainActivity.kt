@@ -14,20 +14,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val miBotton: Button = findViewById(R.id.botonEnviar)
-        miBotton.setOnClickListener { onClick() }
-
-        campoTexto = findViewById(R.id.plain1)
+        val miBotton:Button= findViewById(R.id.botonEnviar)
+        miBotton.setOnClickListener{onClick()}
 
     }
 
     private fun onClick() {
 
         val campoTexto: EditText = findViewById(R.id.plain1)
-        val nombre: String = campoTexto.text.toString()
-
-
-        Toast.makeText(this, "Bienvenido $nombre", Toast.LENGTH_LONG).show()
+        var nombre:String=campoTexto.text.toString()
+        Toast.makeText(this, nombre, Toast.LENGTH_LONG).show()
 
         val radio1: RadioButton?
         val radio2: RadioButton?

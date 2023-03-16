@@ -46,7 +46,7 @@
         android:textOn="@string/inactivo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.559"
@@ -127,18 +127,18 @@
         tools:ignore="HardcodedText,TextSizeCheck,TouchTargetSizeCheck,UseSwitchCompatOrMaterialXml" />
 
     <EditText
-        android:id="@+id/plain1"
+        android:id="@+id/txtNombre"
         android:layout_width="297dp"
         android:layout_height="21dp"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.245"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101"
-        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.101" />
 
     <TextView
         android:id="@+id/titleCheck"
@@ -159,9 +159,9 @@
         android:id="@+id/checkbox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checkbox_1"
+        android:text="Opcion 1C"
         android:textColor="#000"
-        android:textSize="15sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.099"
@@ -184,6 +184,7 @@
             android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="35dp"
+            android:textSize="20sp"
             android:text="@string/opcion_1"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -192,17 +193,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
+            android:textSize="20sp"
             android:text="@string/opcion_2"
             tools:ignore="TouchTargetSizeCheck" />
     </RadioGroup>
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/checkbox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox 2"
+        android:text="Opcion 2C"
         android:textColor="#000"
-        android:textSize="15sp"
+        android:textSize="20sp"
+        android:checked="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.096"
